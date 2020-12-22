@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
-    "pretest": "npm run lint && require-self",
-    "prepare": "npm install require-self && require-self",
+    "pretest": "npm run lint",
     "lint": "standard",
     "fix": "standard --fix"
   },
@@ -26,7 +25,7 @@
   "homepage": "https://github.com/PrismarineJS/prismarine-template#readme",
   "devDependencies": {
     "jest": "^26.1.0",
-    "require-self": "^0.2.3",
+    "prismarine-template": "file:.",
     "standard": "^16.0.1"
   }
 }
