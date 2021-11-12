@@ -4,7 +4,7 @@
   "description": "A template repository to make it easy to create new prismarine repo",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose",
+    "test": "mocha --reporter spec --exit",
     "pretest": "npm run lint",
     "lint": "standard",
     "fix": "standard --fix"
@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/PrismarineJS/prismarine-template#readme",
   "devDependencies": {
-    "jest": "^27.0.4",
     "prismarine-template": "file:.",
     "standard": "^16.0.1"
+  },
+  "dependencies": {
+    "mocha": "^9.1.3"
   }
 }
