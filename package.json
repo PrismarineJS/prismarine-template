@@ -1,6 +1,6 @@
 {
   "name": "prismarine-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A template repository to make it easy to create new prismarine repo",
   "main": "index.js",
   "scripts": {
